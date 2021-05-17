@@ -1,0 +1,114 @@
+.maindiv{
+    color: white;
+  background-color: black;
+
+
+}
+.footer{
+  display: flex; 
+}
+.Aboutartcles{
+  margin:110px 30px 0px 64px
+
+}
+.Aboutartcles h2{
+  margin:0px 0px 20px 0px
+}
+.Aboutartcles p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.downloads{
+  display: flex;
+  
+
+}
+.download{
+  background: rgba(163, 162, 162, 0.425);
+  float: left;
+  color: #fff;
+  border:0px solid #fff;
+  border-radius:15px ;
+  margin: 10px 45px 15px 0px;
+  cursor: pointer;
+  position:relative;
+  width:170px;
+  height:50px
+  
+}
+div.download:hover{
+  background-color: rgba(255, 255, 255, 0.479);
+}
+.fab{
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left:15%;
+  transform: translate(-50%,-50%);
+  font-size: 29px;
+}
+.p1,.p2{
+  position: absolute;
+  left:35%;
+  
+}
+.p1{
+ 
+  top: 10px;
+  font-size: 14px;
+}
+.p2{
+  top: 25px;
+
+  font-size: 17px;
+}
+.Abouttechnology{
+  margin:110px 85px 0px 25px
+}
+.Abouttechnology h2{
+  margin:0px 0px 20px 0px
+}
+.Abouttechnology p{
+  font-size: 18px;
+  line-height: 30px;
+}
+.Abouttechnology h3{
+  margin: 15px 0px 25px 0px;
+  color: rgba(84, 73, 133, 0.575);
+}
+.Abouttechnology h3 a:hover{
+  color:blueviolet;
+  cursor: pointer;
+}
+.lastdiv{
+  margin:0px 85px 0px 64px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.copyright{
+  display: flex;
+  margin: 25px 0px 0px 64px;
+  line-height: 55px;
+}
+.copyright p{
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+@media (max-width:902px){
+  @media( max-height:900px){
+  .maindiv{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer{
+      flex-direction: column;
+  }
+  .Aboutartcles{
+      margin-right:50px
+  }
+  .Abouttechnology{
+      margin:20px 50px 0px 64px
+  }
+}
+}

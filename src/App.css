@@ -36,3 +36,134 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+  .custom-image {
+    background-attachment: fixed;
+    background-size: 100%;
+
+    background-repeat: no-repeat !important;
+    position: relative;
+  }
+  
+  .my-box {
+    justify-content: center;
+    padding: 0 1.5rem;
+    text-align: center i !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .overlay-panel {
+    background-color: black;
+    opacity: 0.3;
+    height: inherit;
+    max-width: 100%;
+  }
+
+  .flex {
+    display: flex;
+  }
+  .flex2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading {
+    margin: 2rem;
+  }
+  .button {
+    margin: 5rem;
+    border-radius: 10rem;
+  }
+
+  .center{
+    font-size:2em;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family:'arial';
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%)
+  }
+
+
+
+  .text-wrap {
+    white-space: normal!important;
+}
+
+.display-3{
+  font-weight:300;
+  line-height: 1.2;
+  color:white
+}
+.col-lg-8,.col-lg-4{
+  position: relative;
+width: 100%;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.pl-4 {
+  padding-left: 1.5rem!important;
+}
+.mt-5{
+  margin-top: 3rem!important;
+}
+
+.mainImg[_ngcontent-mkm-c50] {
+  position: relative;
+  overflow: hidden;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.gallery[_ngcontent-mkm-c50] {
+  padding: 70px 16px;
+}
+
+.bg-white {
+  background-color: #fff!important;
+}
+
+.asfeatured{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 90px;
+}
+.figcaption{
+  position:relative;
+  top:-300px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  font-size:25px;
+
+}
+.figcaptiontwo{
+  position:relative;
+  top:-150px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  font-size:25px;
+
+}
+
+.figcaptionthree{
+  position:relative;
+  top:-200px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  font-size:25px;
+
+}

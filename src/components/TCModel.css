@@ -1,0 +1,12 @@
+.modal-body{
+    height:300px;
+    overflow: hidden;
+}
+/* .modal-body:hover{overflow-y: auto;} */
+
+.fade{
+    opacity:1;
+    -webkit-transaction:opacity is linear;
+    
+}
+

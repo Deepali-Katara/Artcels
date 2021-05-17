@@ -1,0 +1,226 @@
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #f2edf3;
+    background-clip: padding-box;
+    border: 1px solid #ebedf2;
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ebedf2;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+.mr-auto, .mx-auto, .rtl .list-wrapper .remove {
+    margin-right: auto!important;
+}
+
+
+.p-0 {
+    padding: 0!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.h5, h5 {
+    font-size: 1rem;
+}
+
+.cancel-button[_ngcontent-euf-c62] {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+.cancel-button[_ngcontent-euf-c62], .login-button[_ngcontent-euf-c62] {
+    background: #202427;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+input[_ngcontent-euf-c62] {
+    font-size: 18px;
+    color: #495057;
+    display: block;
+    font-weight: 300;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+.pull-right {
+    float: right;
+}
+
+.bg-white {
+    background-color: #fff!important;
+}
+
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: .9375rem;
+}
+.card {
+    border: 0;
+    background: #fff;
+}
+.mr-auto, .mx-auto, .rtl .list-wrapper .remove {
+    margin-right: auto!important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .3125rem;
+}
+
+.card .card-body {
+    padding: 2.5rem;
+}
+
+
+.card-body {
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.pl-3, .px-3 {
+    padding-left: 1rem!important;
+}
+
+.pr-3, .px-3 {
+    padding-right: 1rem!important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ebedf2!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.icons[_ngcontent-euf-c62] {
+    margin-top: 15px;
+}
+img, svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+div{
+    display:block;
+    text-shadow:none;
+}input[_ngcontent-euf-c62] {
+    font-size: 18px;
+    color: #495057;
+    display: block;
+    font-weight: 300;
+}
+
+.form-control {
+    border: 1px solid #ebedf2;
+    font-family: ubuntu-regular,sans-serif;
+    font-size: .8125rem;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+
+.border-0 {
+    border: 0!important;
+}
+.mt-3, .my-3, .template-demo>.btn, .template-demo>.btn-toolbar {
+    margin-top: 1rem!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.login-button[_ngcontent-euf-c62] {
+    background: #202427;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.login-button[_ngcontent-euf-c62] {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 0;
+}
+
+.login-form{
+    width:100%;
+    max-width:300px;
+    padding:15px;
+    margin:auto;
+    height:100%;
+}

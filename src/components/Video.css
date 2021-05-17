@@ -1,0 +1,26 @@
+.custom-video{
+    
+    position: relative;
+    padding-bottom: 60%;
+}
+@media (max-width:769px){
+    .custom-video{
+    padding-bottom: 70%;
+    }
+}
+.responsive-iframe{
+    height: 100%  !important;
+    width: 100%  !important;
+    position: absolute;
+}
+/* .fade-in {
+    animation: fade .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+} */
+.fade-in{
+    animation: fade .5s ease-out 0s 1 normal forwards;
+    
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}

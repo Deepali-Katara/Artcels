@@ -1,0 +1,146 @@
+.custom-image{
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 400;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+@media screen and (max-width: 500px) {
+    .custom-image {
+        
+      background-size: cover;
+      scroll-behavior: smooth;
+    background-repeat: no-repeat !important;
+    position: relative;
+    }
+  }
+
+.my-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    
+    margin: auto;
+    color: white;
+    text-align: center !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+@media (min-width:300px) {
+    .my-box{
+        padding:100px 1.5rem;
+        padding-top: 100px !important;
+        
+    }
+}
+@media (min-width:560px) {
+    .my-box{
+        padding:150px 1.5rem;
+        padding-top: 130px !important;
+    }
+}
+.overlay-panel{
+    background-color: black;
+    opacity: 0.3;
+    height: inherit;
+    
+    max-width: 100%;
+}
+.my-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center !important;
+}
+.custom-h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    word-spacing: 6px;
+    text-align: center !important;
+    justify-content: center;
+    letter-spacing: 12px;
+}
+
+.custom-h6{
+    word-spacing: 4px;
+    padding-top: 1.5rem !important;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.custom-block{
+
+}
+section{
+    display: flex;
+        justify-content: space-around;
+        padding-bottom: 4rem;
+        text-align: center;
+        align-items: center;
+}
+@media (max-width:769px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0rem;
+      
+    }
+}
+.flexone{
+    width: 60%;
+    height: 332px;
+    background-repeat: no-repeat;
+    background-size: 100% 332px;
+    background-position: center;
+}
+.flexone:hover {
+    
+     /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    
+  }
+
+
+.flextwo{
+    width: 30%;
+    height: 332px;
+    background-repeat: no-repeat;
+    background-size: 100% 332px;
+}
+.flextwo:hover {
+    
+    /* IE 9 */
+   -webkit-transform: scale(1.1); /* Safari 3-8 */
+   
+ }
+@media (max-width:769px) {
+    .flextwo{
+        width: 90%;
+        margin-top: 4rem;
+    }
+}
+@media (max-width:769px) {
+    .flexone{
+        width: 90%;
+        margin-top: 4rem;
+    }
+    
+}
+@media (max-width:769px){
+    div{
+        padding-top: 0px !important;
+    }
+}
+.custom-section{
+}
+
+section div{
+   
+    
+    justify-content: space-between !important;
+}
